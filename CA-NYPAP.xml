@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<community_archives xmlns="http://emmd.com/em/terms/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://emmd.com/em/terms/ file:/Users/erinmustard/LIS524/Draft4_reorganized.xsd">
+    <identifier xmlns="http://purl.org/dc/terms/">CA-NYPAP</identifier>
+    <repository>
+        <corpname>The New York Preservation Archive Project</corpname>
+        <address>174 East 80th Street, New York, NY 10075</address>
+    </repository>
+    <contactInformation>
+        <website>https://www.nypap.org/support-us/work-with-us</website>
+        <emailAddress>info@nypap.org</emailAddress>
+        <phoneNumber>212-988-8379</phoneNumber>
+        <contact_name>NA</contact_name>
+    </contactInformation>
+    <volunteerActivities>
+        <volunteerTask>writing</volunteerTask>
+        <volunteerTask>editing</volunteerTask>
+        <volunteerTask>fact-checking</volunteerTask>
+        <volunteerTask>interviewing</volunteerTask>
+        <volunteerTask>organizing</volunteerTask>
+        <volunteerTask>research</volunteerTask>
+        <volunteerTask>video editing</volunteerTask>
+        <volunteerTask>oral history</volunteerTask>
+    </volunteerActivities>
+    <positionDescription>
+        <head>Preservation History Database</head>
+        <experienceRequired>Writing, editing, fact-checking</experienceRequired>
+        <applicationRequired>Resume required</applicationRequired>
+        <part>We are constantly updating this educational resource and need skilled writers, 
+            editors, and knowledgable professionals to research, write, review, and 
+            fact-check both new and existing entries.</part>   
+    </positionDescription>
+    <positionDescription>
+        <head>Oral Histories</head>
+        <experienceRequired>interviewing, research, video editing, formatting interview 
+            materials</experienceRequired>
+        <applicationRequired>Resume required</applicationRequired>
+        <part>There are many opportunities to become involved in ongoing or past 
+            oral history projects. Individuals with the necessary skills and background 
+            knowledge can also be paired with preservationists to interview them and 
+            document their stories.
+        </part>
+    </positionDescription>
+    <positionDescription>
+        <head>Archives and Collections</head>
+        <experienceRequired>Filing, organizing, conservation</experienceRequired>
+        <applicationRequired>Resume required</applicationRequired>
+        <part>While we are not a permanent collecting institution, we maintain 
+            relationships with libraries and archives across the city, and work 
+            to ensure collections find a proper home. In certain circumstances, 
+            we are able to accept and house collections in our offices. 
+            Volunteers are essential in this process.</part>
+    </positionDescription>
+    <instructionalMethod xmlns="http://purl.org/dc/terms/">face to face</instructionalMethod>
+    <internetAccess>Unknown</internetAccess>
+    <description xmlns="http://purl.org/dc/terms/">The New York Preservation Archive Project 
+        is a not-for-profit organization dedicated to documenting, preserving, 
+        and celebrating the history of historic preservation in New York City. 
+        Recognizing the instructive and inspirational importance of this
+        history to the continued health, success and growth of preservation
+        in our City, the Archive Project hopes to bring these stories to 
+        light through public programs, oral histories, and providing access 
+        to information. The Archive Project is devoted to celebrating neglected 
+        narratives of New York City historic preservation using the archives
+        that hold these stories.</description>
+    <context>The New York Preservation Archive Project was founded because 
+        insufficient effort was being devoted to saving preservation’s own history; 
+        memories were frequently lost; lessons from campaign victories and defeats 
+        were quickly forgotten; and noteworthy topics in this history were often 
+        overlooked. To reverse this tide of loss and capture this endangered record, 
+        the Archive Project conducts oral histories to record the memories of those 
+        who made preservation history and makes transcripts available here. The 
+        Archive Project also maintains a Preservation History Database, with key 
+        information on people, places, organizations, and public policy significant 
+        to the historic preservation in New York City.
+    </context>
+   <controlaccess>
+       <head>Library of Congress Subject Headings</head>
+       <subject xmlns="http://ead3.archivists.org/schema/" encodinganalog="650" source="lcsh">
+           <part>New York City</part>
+       </subject>
+       <subject xmlns="http://ead3.archivists.org/schema/" encodinganalog="650" source="lcsh">
+           <part>New York Preservation Archive Project</part>
+       </subject>
+   </controlaccess>
+    <arrangement>
+        <head>Preservation History Database and Oral Histories</head>
+        <p xmlns="http://ead3.archivists.org/schema/">Arranged into two collections: Preservation History
+        Database and Oral Histories</p>
+        <list xmlns="http://ead3.archivists.org/schema/">
+            <item>Places</item>
+            <item>Organizations</item>
+            <item>People</item>
+            <item>Public Policy</item>
+        </list>
+        <list xmlns="http://ead3.archivists.org/schema/">
+            <item>Saving Preservation Stories</item>
+            <item>Through the Legal Lens</item>
+            <item>Leading the Commission</item>
+            <item>The Roots of LGBTQ Preservation</item>
+            <item>Inspired by Grassroots Stories</item>
+            <item>Gerry Trust Oral History Intensive</item>
+        </list>
+    </arrangement>
+    <relation xmlns="http://purl.org/dc/terms/">
+        The New York Public Library
+        https://archives.nypl.org/the/21550#detailed  
+    </relation>
+    <audience xmlns="http://purl.org/dc/terms/"></audience>
+    <architecturalContext>
+        <architecturalContextDate>2003</architecturalContextDate>
+    </architecturalContext>
+    <preservationLevel>Not a permanent collecting institution. 
+        Most collections are held with partner institutions.</preservationLevel>
+</community_archives>

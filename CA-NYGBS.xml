@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<community_archives xmlns="http://emmd.com/em/terms/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://emmd.com/em/terms/ file:/Users/erinmustard/LIS524/Draft4_reorganized.xsd">
+    <identifier xmlns="http://purl.org/dc/terms/">CA-NYGBS</identifier>
+    <repository>
+        <corpname>New York Genealogical and Biographical Society</corpname>
+        <address>36 West 44th Street 7th Floor
+            New York, NY 10036-8105</address>
+    </repository>
+    <contactInformation>
+        <website>https://www.newyorkfamilyhistory.org/volunteer</website>
+        <website>https://www.newyorkfamilyhistory.org/form/webform-168326</website>
+        <emailAddress>Use contact form</emailAddress>
+        <phoneNumber>212-755-8532</phoneNumber>
+        <contact_name>NA</contact_name>
+    </contactInformation>
+    <volunteerActivities>
+        <volunteerTask>Digitization</volunteerTask>
+        <volunteerTask>Indexing</volunteerTask>
+        <volunteerTask>Record Retrieval</volunteerTask>
+    </volunteerActivities>
+    <positionDescription>
+        <head>Digitization of New York Records</head>
+        <experienceRequired>There is also opportunity for volunteers with 
+            significant digitization experience to become Digital Project 
+            Assistants overseeing the work of volunteers in the Digitization 
+            Center.</experienceRequired>
+        <applicationRequired>Interest form</applicationRequired>
+        <part>Begun in 2017, the New York Digitization and Indexing Project aims 
+            to place thousands of new materials online. To date we have indexed 
+            more than 50,000 records and digitized more than 86,000.As part of 
+            our mission to preserve New York history, we actively work on digitizing 
+            records and documents. Volunteers doing digitization will be trained 
+            on the use of our scanning equipment, image quality control, 
+            and best practices for file management.Our Digitization Center has four 
+            digitization stations that we aim to have working on a continuous basis 
+            Monday through Friday 9:00 AM–5:00 PM with volunteers working in three or 
+            four-hour shifts when possible.</part>
+    </positionDescription>
+    <positionDescription>
+        <head>Indexing of New York Records</head>
+        <experienceRequired>Unknown</experienceRequired>
+        <applicationRequired>Interest form</applicationRequired>
+        <part>Our indexing team adds new records that can be searched online. 
+            Indexing can be done in the office or from the convenience of your 
+            own home anywhere in the world. Volunteers are given scanned document 
+            pages in batches and are asked to complete an indexing form for each batch.</part>
+    </positionDescription>
+    <positionDescription>
+        <head>Record Retrieval</head>
+        <experienceRequired>Experience in using local repositories across New York State</experienceRequired>
+        <applicationRequired>Interest form</applicationRequired>
+        <part>Record retrieval involves traveling to a repository and getting a copy 
+            or a digital picture of a specific record that a member has identified 
+            such as a family file from the Milstein Division of the New York Public 
+            Library or a birth certificate at the NYC Municipal Archives.</part>
+    </positionDescription>
+    <instructionalMethod xmlns="http://purl.org/dc/terms/">Training on use of scanning equipment
+    image quality control, and best practices for file management</instructionalMethod>
+    <internetAccess>Yes</internetAccess>
+    <description xmlns="http://purl.org/dc/terms/">A core part of the New York Genealogical and 
+        Biographical Society's mission is to preserve historical material and make it accessible 
+        for New York State genealogy and history research.Our society has always used contemporary 
+        technology to make this material accessible to a wide audience—in our early decades, we 
+        disseminated transcriptions of crucial records and other genealogical research in a periodical,  
+        The New York Genealogical and Biographical Record, which is still in publication today. 
+        In the twentieth century, NYG&amp;B scholars and archivists traveled all over New York State 
+        transcribing records, which were bound into books and disseminated to universities, 
+        libraries, and individual researchers. In the twenty-first century, our society digitizes 
+        images of historical records and creates searchable databases to allow researchers to 
+        search and view these documents online. </description>
+    <context>As a 501(c)(3) nonprofit organization, our mission is to preserve, document, 
+        and share family history and stories from across New York State. We engage with 
+        genealogists, biographers, historians, and organizations to establish the broader 
+        contexts of New York’s past. We actively foster connections between New York’s past 
+        and present. For the past 150 years, we have been preserving valuable genealogical 
+        and historical records, producing peer-reviewed genealogical scholarship, and providing 
+        crucial resources to help amateur and professional genealogists navigate New York 
+        genealogy research.</context>
+    <controlaccess>
+        <head>Library of Congress Subject Headings</head>
+        <subject xmlns="http://ead3.archivists.org/schema/" encodinganalog="650" source="lcsh">
+            <part>Genealogy &amp; local history</part>
+        </subject>
+        <subject xmlns="http://ead3.archivists.org/schema/" encodinganalog="650" source="lcsh">
+            <part>Biographies</part>
+        </subject>
+    </controlaccess>
+    <arrangement>
+        <head>Category</head>
+        <list xmlns="http://ead3.archivists.org/schema/">
+            <item>Account Books</item>
+            <item>Biographies</item>
+            <item>Business</item>
+            <item>Cemetery</item>
+            <item>Census</item>
+            <item>Colonial</item>
+            <item>Compiled Genealogies</item>
+            <item>County Histories</item>
+            <item>Court</item>
+            <item>Death</item>
+            <item>Directories</item>
+            <item>Personal and Family Papers</item>
+            <item>Immigration</item>
+            <item>Index</item>
+            <item>Marriage Contracts</item>
+            <item>Naturalization</item>
+            <item>Newspapers</item>
+            <item>Occupations</item>
+            <item>Periodicals</item>
+            <item>Religious Records</item>
+            <item>Research Aids</item>
+            <item>Town Records</item>
+            <item>Unlocked</item>
+            <item>Vital Records</item>
+            <item>Wills and Probate</item>    
+        </list>
+        <p xmlns="http://ead3.archivists.org/schema/">Can also be organized by location, type
+        of material, and creator of the records</p>
+    </arrangement>
+    <relation xmlns="http://purl.org/dc/terms/">The New York Public Library, Stephen
+    A. Schwarzman Building (Fifth Avenue and 42nd Street) located both in the Manuscript
+    Division and the Irma and Paul Milstein Division of United States History,
+    Local History and Geneaology. </relation>
+    <audience xmlns="http://purl.org/dc/terms/">genealogists</audience>
+    <architecturalContext>
+        <part>The NYG &amp; B also moved to its present home at 36 West 44th Street.</part>
+        <architecturalContextDate>early 2000s</architecturalContextDate>
+    </architecturalContext>
+    <preservationLevel>Records from New York State are digitized, and offer
+    digitization services to organizations and individuals that possess records related to New York State.</preservationLevel>
+</community_archives>

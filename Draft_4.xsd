@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:premis="http://www.loc.gov/standards/premis/v1"
+    xmlns:eag="http://www.archivesportaleurope.net/Portal/profiles/eag_2012/"
+    xmlns:ead="http://ead3.archivists.org/schema/" targetNamespace="http://emmd.com/em/terms/"
+    xmlns="http://emmd.com/em/terms/" elementFormDefault="qualified">
+
+    <xs:import namespace="http://purl.org/dc/terms/"
+        schemaLocation="https://www.dublincore.org/schemas/xmls/qdc/2008/02/11/dcterms.xsd"/>
+    <xs:import namespace="http://ead3.archivists.org/schema/"
+        schemaLocation="https://www.loc.gov/ead/ead3.xsd"/>
+    <xs:import namespace="http://www.archivesportaleurope.net/Portal/profiles/eag_2012/"
+        schemaLocation="https://www.archivesportaleurope.net/schemas/eag/eag_2012.xsd"/>
+    <xs:import namespace="http://www.loc.gov/standards/premis/v1"
+        schemaLocation="https://www.loc.gov/standards/premis/v1/Object-v1-1.xsd"/>
+
+    <xs:element name="community_archives">
+        <!-- Volunteer information -->
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="dcterms:identifier" minOccurs="1" maxOccurs="1"/>
+                <xs:element name="repository">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:choice maxOccurs="unbounded">
+                                <xs:element name="corpname" type="xs:string"/>
+                                <xs:element name="famname" type="xs:string"/>
+                                <xs:element name="name" type="xs:string"/>
+                                <xs:element name="persname" type="xs:string"/>
+                            </xs:choice>
+                            <xs:element name="address" type="xs:string" minOccurs="0"/>
+                        </xs:sequence>
+                        <xs:attributeGroup ref="ead:am.common"/>
+                        <xs:attribute name="localtype" type="xs:token"/>
+                        <xs:attribute name="label" type="xs:string"/>
+                        <xs:attribute name="encodinganalog" type="xs:token"/>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="contactInformation" minOccurs="1" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="website" minOccurs="0" maxOccurs="unbounded"
+                                type="xs:string"/>
+                            <xs:element name="emailAddress" minOccurs="1" maxOccurs="unbounded"
+                                type="xs:string"/>
+                            <xs:element name="phoneNumber" minOccurs="1" maxOccurs="unbounded"
+                                type="xs:string"/>
+                            <xs:element name="contact_name" minOccurs="0" maxOccurs="unbounded"
+                                type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="volunteerActivities" minOccurs="0" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="volunteerTask" minOccurs="0" maxOccurs="unbounded"
+                                type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="positionDescription" minOccurs="1" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="head" type="xs:string"/>
+                            <xs:element name="experienceRequired" type="xs:string"/>
+                            <xs:element name="applicationRequired" type="xs:string"/>
+                            <xs:element name="part" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element ref="dcterms:instructionalMethod" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element name="internetAccess" minOccurs="0" type="xs:string"/>
+
+                <!-- About the archive -->
+                <xs:element ref="dcterms:description" minOccurs="1" maxOccurs="unbounded"/>
+                <xs:element name="context" minOccurs="1" maxOccurs="unbounded"/>
+                <xs:element name="controlaccess">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="head" type="ead:head" minOccurs="0"/>
+                            <xs:choice maxOccurs="unbounded">
+                                <xs:group ref="ead:m.blocks"/>
+                                <xs:group ref="ead:m.access"/>
+                                <xs:element name="controlaccess" type="ead:controlaccess"/>
+                            </xs:choice>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="arrangement">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="head" type="xs:string" minOccurs="0"/>
+                            <xs:choice maxOccurs="unbounded">
+                                <xs:group ref="ead:m.blocks"/>
+                                <xs:element name="arrangement" type="ead:arrangement"/>
+                            </xs:choice>
+                        </xs:sequence>
+                        <xs:attributeGroup ref="ead:am.common"/>
+                        <xs:attribute name="localtype" type="xs:token"/>
+                        <xs:attribute name="label" type="xs:string"/>
+                        <xs:attribute name="encodinganalog" type="xs:token"/>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element ref="dcterms:relation" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="dcterms:audience" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element name="architecturalContext" minOccurs="0" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="part" minOccurs="0" maxOccurs="unbounded"/>
+                            <xs:element name="architecturalContextDate" minOccurs="0"
+                                maxOccurs="unbounded"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="preservationLevel" minOccurs="0" maxOccurs="1" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
